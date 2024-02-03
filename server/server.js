@@ -14,7 +14,7 @@ app.disable('x-powered-by'); // less hackers know about our stack
 
 // Set up CORS options
 const corsOptions = {
-  origin: 'https://login-otp-eight.vercel.app/',
+  origin: 'https://login-otp-server-z1tj.onrender.com/',
   methods: 'GET,PUT,POST',
   credentials: true,
   optionsSuccessStatus: 204,
