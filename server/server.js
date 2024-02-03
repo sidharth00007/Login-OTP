@@ -17,7 +17,6 @@ const corsOptions = {
   origin: 'https://login-otp-eight.vercel.app',
   methods: 'GET,PUT,POST',
   credentials: true,
-  optionsSuccessStatus: 204,
 };
 
 app.use(cors(corsOptions));
