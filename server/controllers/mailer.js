@@ -2,13 +2,14 @@ import nodemailer from 'nodemailer';
 import Mailgen from 'mailgen';
 
 // import ENV from '../config.js';
-
+import dotenv from 'dotenv';
+dotenv.config()
 
 let nodeConfig = {
     service: 'gmail',
     auth: {
-        user: ENV.EMAIL, 
-        pass: ENV.PASSWORD, 
+        user: process.env.EMAIL, 
+        pass: process.env.PASSWORD, 
     }
 }
 
