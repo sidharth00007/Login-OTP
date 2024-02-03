@@ -32,7 +32,7 @@ export default function Password() {
   };
 
   const { username } = useAuthStore(state => state.auth)
-  const [{ isLoading, apiData, serverError }] = useFetch(`/user/${username}`)
+  const [{ isLoading, apiData }] = useFetch(`/user/${username}`)
 
 
 
